@@ -1,0 +1,23 @@
+html {
+    text-align: center;
+    background-color: rgb(255, 136, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+input, #adopt {
+    font-size: 1.25em;
+}
+
+img {
+    border-radius: 25px 25px;
+}
+
+#download {
+    background: none;
+    border: none;
+    color: rgb(7, 7, 112);
+    font-size: 1.25em;
+}
+
+
+
