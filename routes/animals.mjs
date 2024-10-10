@@ -1,6 +1,6 @@
 //Import dependencies
 import express from 'express';
-const router = express.Router(); //Sex express.Router for organization in server.mjs
+const router = express.Router(); //Set express.Router for organization in server.mjs
 
 //Get request for /animals
 router.get('/', (req, res) => {
