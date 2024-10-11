@@ -26,7 +26,7 @@ router.get('/download', (req,res) => {
   res.download("images/giphy.gif") 
 })
 
-//Dynamic parameter using :
+//Dynamic query parameters using :
 router.get('/:id', (req, res) => { 
   console.log(req.animal)  
   res.send(`Get animal with id: ${req.params.id}`)
